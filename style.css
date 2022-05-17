@@ -1,0 +1,50 @@
+* {
+    all: unset;
+    display: revert;
+    cursor: revert;
+}
+body {
+    font-family: BhuTuka_Expanded_One,Oswald;
+    /* background-image: url(Billeder/baggrund.webp);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+img {
+    max-width: 100%;
+}
+header {
+    display: grid;
+    gap: 1rem;   
+    font-size: 2.2rem;
+    letter-spacing: 1.9px;
+    
+}
+h1 {
+    text-decoration-line: underline;
+    width: 100%;
+    text-align: center;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+}
+main {
+    display: grid;
+    gap: 1%;
+    font-size: 1.3rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: antiquewhite;
+}
+.billeder_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: antiquewhite;
+    gap: 1%;
+
+}
+.billeder {
+
+}
